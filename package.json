@@ -13,6 +13,6 @@
         "devices": "*",
         "startfile": "app/index.html"
       }
-    ],
+    ]
   }
 }
