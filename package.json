@@ -18,10 +18,12 @@
       "schema":{
         "optwithdefault":{
           "type":"string",
-          "default":"dft"
+          "default":"dft",
+	  "required": true
         },
         "optwithoutdefault":{
-          "type":"string"
+          "type":"string",
+	  "default":"not required, this value should not be automatically set."
         }
       }
     }
